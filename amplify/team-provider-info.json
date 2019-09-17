@@ -1,0 +1,19 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "bokmork-prod-20190917162939-authRole",
+            "UnauthRoleArn": "arn:aws:iam::931422485522:role/bokmork-prod-20190917162939-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::931422485522:role/bokmork-prod-20190917162939-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "bokmork-prod-20190917162939-deployment",
+            "UnauthRoleName": "bokmork-prod-20190917162939-unauthRole",
+            "StackName": "bokmork-prod-20190917162939",
+            "StackId": "arn:aws:cloudformation:us-east-1:931422485522:stack/bokmork-prod-20190917162939/41d68060-d992-11e9-8c15-120371d9064c"
+        },
+        "categories": {
+            "auth": {
+                "bokmorkaa760229": {}
+            }
+        }
+    }
+}

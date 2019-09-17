@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"bokmorkaa760229": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
