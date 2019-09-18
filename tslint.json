@@ -1,0 +1,65 @@
+{
+  "extends": ["tslint-react", "tslint-config-prettier"],
+  "defaultSeverity": "warning",
+  "rules": {
+    "arrow-parens": {
+      "severity": "error"
+    },
+    "arrow-return-shorthand": {
+      "severity": "error"
+    },
+    "curly": {
+      "severity": "error"
+    },
+    "eofline": {
+      "severity": "error"
+    },
+    "indent": {
+      "options": ["spaces", 2],
+      "severity": "error"
+    },
+    "jsx-key": false,
+    "newline-before-return": false,
+    "no-conditional-assignment": {
+      "severity": "error"
+    },
+    "ordered-imports": {
+      "severity": "error"
+    },
+    "prefer-template": {
+      "severity": "error"
+    },
+    "quotemark": {
+      "options": ["single", "avoid-escape", "jsx-double"],
+      "severity": "error"
+    },
+    "semicolon": {
+      "options": ["always"],
+      "severity": "error"
+    },
+    "space-before-function-paren": {
+      "options": {
+        "anonymous": "always",
+        "asyncArrow": "always",
+        "named": "never"
+      },
+      "severity": "error"
+    },
+    "triple-equals": {
+      "options": "allow-null-check",
+      "severity": "error"
+    },
+    "whitespace": {
+      "options": [
+        "check-operator",
+        "check-branch",
+        "check-decl",
+        "check-preblock",
+        "check-separator",
+        "check-typecast",
+        "check-rest-spread"
+      ],
+      "severity": "error"
+    }
+  }
+}
